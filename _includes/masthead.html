@@ -27,12 +27,24 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
-                <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
-                <li><a href="{{ "/advocacy/" | prepend: site.baseurl }}">Advocacy</a></li>
-                <li><a href="{{ "/reviews/" | prepend: site.baseurl }}">Reviews</a></li>
-                <li><a href="{{ "/safetyandhealth/" | prepend: site.baseurl }}">Safety &amp; Health</a></li>
-                <li><a href="{{ "/interviews/" | prepend: site.baseurl }}">Interviews</a></li>
-                <li><a href="{{ "/guestarticles/" | prepend: site.baseurl }}">Guest Articles</a></li>
+                <li {% if page.title == "Mist Of Eden" %} class="active" {% endif %} >
+                    <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
+                </li>
+                <li {% if page.title == "Advocacy" %} class="active" {% endif %} >
+                    <a href="{{ "/advocacy/" | prepend: site.baseurl }}">Advocacy</a>
+                </li>
+                <li {% if page.title == "Reviews" %} class="active" {% endif %} >
+                    <a href="{{ "/reviews/" | prepend: site.baseurl }}">Reviews</a>
+                </li>
+                <li {% if page.title == "Safety &amp; Health" %} class="active" {% endif %} >
+                    <a href="{{ "/safetyandhealth/" | prepend: site.baseurl }}">Safety &amp; Health</a>
+                </li>
+                <li{% if page.title == "Interviews" %} class="active" {% endif %} >
+                    <a href="{{ "/interviews/" | prepend: site.baseurl }}">Interviews</a>
+                </li>
+                <li {% if page.title == "Guest Articles" %} class="active" {% endif %} >
+                    <a href="{{ "/guestarticles/" | prepend: site.baseurl }}">Guest Articles</a>
+                </li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
