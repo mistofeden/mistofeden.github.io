@@ -9,7 +9,8 @@ about: > # this means to ignore newlines until "baseurl:"
   course advocacy.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mistofeden.github.io/" # the base hostname & protocol for your site
-youtubechannel_name: mistofeden
+youtube_channel_name: mistofeden
+facebook_group_name: Mist Of Eden
 twitter_username: mistofeden
 github_username:  mistofeden
 
