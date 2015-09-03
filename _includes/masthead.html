@@ -1,12 +1,39 @@
-<div class="blog-masthead">
+<!-- <div class="blog-masthead">
     <div class="container">
         <nav class="blog-nav">
             <a class="blog-nav-item active" href="{{ "/" | prepend: site.baseurl }}">Home</a>
-            <a class="blog-nav-item" href="{{ "/advocacy/" | prepend: site.baseurl }}">Avocacy</a>
-            <a class="blog-nav-item" href="{{ "/reviews/" | prepend: site.baseurl }}">Hardware/E-Juice Reviews</a>
+            <a class="blog-nav-item" href="{{ "/advocacy/" | prepend: site.baseurl }}">Advocacy</a>
+            <a class="blog-nav-item" href="{{ "/reviews/" | prepend: site.baseurl }}">Reviews</a>
             <a class="blog-nav-item" href="{{ "/safetyandhealth/" | prepend: site.baseurl }}">Safety/Health</a>
             <a class="blog-nav-item" href="{{ "/interviews/" | prepend: site.baseurl }}">Interviews</a>
             <a class="blog-nav-item" href="{{ "/guestarticles/" | prepend: site.baseurl }}">Guest Articles</a>
         </nav>
     </div>
-</div>
+</div> -->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">Mist Of Eden</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+                <li><a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+                <li><a href="{{ "/advocacy/" | prepend: site.baseurl }}">Advocacy</a></li>
+                <li><a href="{{ "/reviews/" | prepend: site.baseurl }}">Reviews</a></li>
+                <li><a href="{{ "/safetyandhealth/" | prepend: site.baseurl }}">Safety &amp; Health</a></li>
+                <li><a href="{{ "/interviews/" | prepend: site.baseurl }}">Interviews</a></li>
+                <li><a href="{{ "/guestarticles/" | prepend: site.baseurl }}">Guest Articles</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>

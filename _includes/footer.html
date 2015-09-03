@@ -1,12 +1,12 @@
 <footer class="blog-footer">
-    <div>
+    <!-- <div>
         <ul class="list-inline">
           <li>
               <span class="icon-large icon-envelope socialmedia-icon"></span>
               <span>{{ site.email }}</span>
           </li>
           <li>
-            <a href="https://www.youtube.com/channel/UCOEVj-vXLLwSGZTyEvdGGbA" target="_blank">
+            <a href="https://www.youtube.com/channel/ucoevj-vxllwsgztyevdggba" target="_blank">
               <span class="icon-large icon-youtube socialmedia-icon"></span>
               <span>{{ site.youtubechannel_name }}</span>
             </a>
@@ -18,9 +18,18 @@
             </a>
           </li>
         </ul>
-    </div>
-    <p>Much thanks to Jan Kovarik for the amazing <a href="http://www.glyphicons.com/">GLYPHICONS</a> used throughout the Mist Of Eden website.</p>
+    </div> -->
     <p>
         <a href="#">Back to top</a>
     </p>
+    <p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <p>Much thanks to Jan Kovarik for the amazing <a href="http://www.glyphicons.com/">GLYPHICONS</a> used throughout the Mist Of Eden website.</p>
+    <p>
+        &copy;2015 Mist Of Eden<br>All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.
+    </p>
 </footer>
+
+<!-- js files go here -->
+<script src="{{ "/js/lib/jquery/jquery-2.1.4.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+<script src="{{ "/js/lib/bootstrap/bootstrap.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+<script src="{{ "/js/lib/bootstrap/ie10-viewport-bug-workaround.js" | prepend: site.baseurl }}" charset="utf-8"></script>
