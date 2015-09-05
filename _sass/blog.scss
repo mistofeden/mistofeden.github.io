@@ -166,3 +166,20 @@ h6, .h6 {
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+/*
+ * Commom to all top-level pages
+ */
+.blog-page-topimage, .blog-page-advocacy {
+    margin-bottom: 20px;
+}
+
+.socialmedia-icon {
+    vertical-align: middle;
+}
+
+.article-eic .panel-body img {
+    float: left;
+    vertical-align: top;
+    margin: 0 10px 10px 0;
+}
