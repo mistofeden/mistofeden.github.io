@@ -13,8 +13,25 @@
 
         <div class="row">
 
+            <div class="col-sm-8 blog-page-topimage">
+
+                {% case page.title %}
+                {% when "Mist Of Eden" %}
+                <img class="img-responsive" src="{{ site.siteImg | prepend: site.baseurl }}" alt="">
+                {% endcase %}
+
+            </div>
+
             <div class="col-sm-8 blog-main">
+
+                <div class="blog-page-advocacy">
+                    <a href="http://casaa.org/Become_a_Member.html" target="_blank">
+                        <img class="img-responsive" src="{{ "/images/casaa-banner.gif" | prepend: site.baseurl }}" alt="">
+                    </a>
+                </div>
+
                 {{ content }}
+
             </div>
 
             <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
@@ -52,7 +69,7 @@
                         <li>
                             <a href="mailto:{{ site.email }}">
                                 <span class="icon-large icon-envelope socialmedia-icon"></span>
-                                <span>{{ site.email }}</span>
+                                <span>Email</span>
                             </a>
                         </li>
                         <li>

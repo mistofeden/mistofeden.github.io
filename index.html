@@ -15,16 +15,20 @@ title: Mist Of Eden
     </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default article-eic">
+
+    {% for post in site.categories.eic limit: 1 %}
     <div class="panel-heading">
-        <h3>The State Of The Vape</h3>
-        <p>By {{ site.editorinchief }}</p>
+        <h3>{{ post.title }}</h3>
+        <h5>By <a href="#">{{ site.editorinchief }}</a></h5>
+        <h6>{{ post.date  | date: "%b %-d, %Y" }}</h6>
     </div>
     <div class="panel-body">
-        <img class="img-responsive img-rounded" src="{{ "/images/vape-vaping-smoking-woman.jpg" | prepend: site.baseurl }}" alt="">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias exercitationem similique a, iste, dolore cumque consequuntur pariatur officia vel id necessitatibus beatae voluptate natus neque, ad deleniti repellat! In, fugiat?</p>
-        <p>Fugiat impedit, id libero harum quibusdam, magni, reiciendis asperiores voluptatum ipsam nam sint suscipit odio earum non optio at nisi enim. Debitis earum facilis animi nesciunt ipsam tempore, error iure!</p>
-        <p>Illo doloremque deserunt, esse ex velit mollitia soluta adipisci minima tempora, recusandae a, facilis debitis numquam quas. Ipsa obcaecati quibusdam aliquam eum suscipit doloribus molestiae nemo possimus, voluptatibus iure, cum?</p>
-        <p>Laborum similique perspiciatis eum, beatae architecto nisi neque necessitatibus in animi iure ex tempora tempore nesciunt, maiores exercitationem hic cum sequi, consectetur quam natus facere. Sunt autem fugiat, eos accusamus?</p>
+        <img src="{{ "/images/eic-profile-photo.jpg" | prepend: site.baseurl }}"
+        width="64" height="64"
+        alt="Photo of the Editor-in-chief">
+        {{ post.content }}
     </div>
+    {% endfor %}
+
 </div>

@@ -11,6 +11,22 @@
     <meta name="robots" content="{{ site.robots }}">
     <meta name="slurp" content="{{ site.slurp }}">
 
+    <!-- Social Media Meta Tags -->
+
+    {% if page.title == site.title %}
+    <!-- Open Graph data -->
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ site.url }}" />
+    <meta property="og:image" content="{{ site.site_img }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:site_name" content="{{ site.title }}" />
+    <!-- End Open Graph data -->
+
+    {% endif %}
+
+    <!-- End Social Media Meta Tags -->
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- <link rel="icon" href=""> -->
