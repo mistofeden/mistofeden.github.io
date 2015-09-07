@@ -11,16 +11,15 @@
 
         {% include header.html %}
 
+        {% if page.title == "Mist Of Eden" %}
         <div class="row">
-
             <div class="col-sm-8 blog-page-topimage">
-
-                {% case page.title %}
-                {% when "Mist Of Eden" %}
                 <img class="img-responsive" src="{{ site.siteImg | prepend: site.baseurl }}" alt="">
-                {% endcase %}
-
             </div>
+        </div>
+        {% endif %}
+
+        <div class="row">
 
             <div class="col-sm-8 blog-main">
 
