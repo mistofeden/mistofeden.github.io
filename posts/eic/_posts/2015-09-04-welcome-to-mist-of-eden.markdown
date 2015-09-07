@@ -7,9 +7,10 @@ author: Jeffrey T. Schwartz
 
 Welcome to Mist Of Eden, a brand new webzine dedicated to providing the vaping
 community original and curated content covering the many different and diverse
-aspects of vaping. Ever since I started vaping, which was about a year and a
-half ago, I dreamed of creating a publication just like this one whose focus is
-this marvelous social phenomena we call vaping.
+aspects of vaping. It also serves as my vaping-centric blog. Ever since I
+started vaping, which was about a year and a half ago, I dreamed of creating a
+publication just like this one whose focus is this marvelous social phenomena we
+call vaping.
 
 So who am I, you ask? My name is Jeffrey T. Schwartz (but please call me Jeff),
 and I am among other things here the Editor-in-Chief of Mist Of Eden -- but
