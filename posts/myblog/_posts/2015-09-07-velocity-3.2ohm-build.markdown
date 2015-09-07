@@ -1,18 +1,122 @@
 ---
 layout: post
-title:  Building The Velocity RDA (clone by Tobeco) For Flavor
+title:  An Act Of Lavor - Building The Velocity RDA (clone by Tobeco) For Flavor On Labor Day, 2015
 date:   2015-09-07
 author: Jeffrey T. Schwartz
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I would love to purchase an authentic Velocity RDA but, unfortunately, I can't find it anywhere. Hearing that the Tobeco Velocity clone is quite nice I opted to pick one up. I've had mine now for only a few short weeks but already I have to say that it has really spoiled me. It is, without a doubt, the best flavor RDA I've owned to date and it's only the clone - I can only imagine just how great the authentic must be.
 
-<img class="img-responsive" src="{{ "/images/posts/1.jpg" | prepend: site.baseurl }}" alt="image of 28 guage twisted wire"/>
+Being that today is Labor Day here in the States, I decided to rebuild my Velocity, focusing on a great flavor build. As I am shooting for flavor over clouds (though I really enjoy the clouds) I opted to use a braided 26 gauge wire by UD. The package the wire comes in is labeled Roll Coils. If you look closely at the wire you can see that it is just two 26 gauge wires that are braided around each other to form links like in a chain linked fence but the links are much tighter of course.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I measured the wire to find that it has an average twist pitch of around 1 mm. Knowing the twist pitch is important because Steam Engine uses this number in its calculation for parallel/twisted wire. If you're interested, you can follow this link to [Steam Engine](//www.steam-engine.org/coil.asp?p=roundmulti&tp=1&s=dp&r=0.35&str=2&awg=26&id=3.5&ll=1) to see my calculation for this build. From experience I've learned that Steam Engine is off somewhat when calculating for parallel/twisted wire. So I added two more full wraps to what it indicated and even with 8 wraps it came out to only .32 ohms, short of Steam Engine's calculation of .35 ohms, but closer to what I expected anyway and I am quite happy with it.
 
-<img class="img-responsive" src="{{ "/images/posts/2.jpg" | prepend: site.baseurl }}" alt="image of 28 guage twisted wire"/>
+For flavor builds I prefer a larger inner diameter than I normally use for cloud builds, so I chose to use an inner diameter of 3.5 mm for these coils. I really like these larger inner diameter coils for flavor builds. They allow me to stuff quite a bit of cotton in them and they will hold a lot of liquid. Speaking of cotton, I am using Cotton Bacon v2 for this build because I just love this cotton.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Here are some pictures I took while I was buidling the Velocity:
 
-<img class="img-responsive" src="{{ "/images/posts/3.jpg" | prepend: site.baseurl }}" alt="image of 28 guage twisted wire"/>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Package of 28 gauge UD Roll Coils Wire.</h3>
+  </div>
+  <div class="panel-body">
+    <img class="img-responsive" src="{{ "/images/posts/1.jpg" | prepend: site.baseurl }}" alt="image of 28 guage twisted wire"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">A 3.5 mm screw driver and 2 strands of wire, each measuring about 8 inches.</h3>
+  </div>
+  <div class="panel-body">
+    <img class="img-responsive" src="{{ "/images/posts/2.jpg" | prepend: site.baseurl }}" alt="2 wires and a 3.5mm screw driver"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Result! 2 nicely wrapped coils.</h3>
+  </div>
+  <div class="panel-body">
+    <img class="img-responsive" src="{{ "/images/posts/3.jpg" | prepend: site.baseurl }}" alt="2 coils, wrapped on a 3.5mm screw driver"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">The Velocity clone by Tobeco.</h3>
+  </div>
+  <div class="panel-body">
+    <img class="img-responsive" src="{{ "/images/posts/4.jpg" | prepend: site.baseurl }}" alt="The Velocity RDA clone by Tobeco"/>
+  </div>
+</div>
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">2 coils installed in the Velocity.</h3>
+  </div>
+  <div class="panel-body">
+    <img class="img-responsive" src="{{ "/images/posts/5.jpg" | prepend: site.baseurl }}" alt="2 coils installed in the RDA's deck"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">2 coils firing after compressing them. Not much work was needed to get them pretty.</h3>
+  </div>
+  <div class="panel-body">
+    <img class="img-responsive" src="{{ "/images/posts/6.jpg" | prepend: site.baseurl }}" alt="2 coils firing and glowing red"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Lets get to wicking. I love this Cotton Bacon. So easy to work with and the cotton is so clean. No specks to remove like Japanese cotton. Just pull off what you need and you are good to go!</h3>
+  </div>
+  <div class="panel-body">
+    <img class="img-responsive" src="{{ "/images/posts/7.jpg" | prepend: site.baseurl }}" alt="cotton bacon and 2 pieces of cut cotton"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">The 3.5 mm inner diameter of these coils lets me use a lot more cotton. The cotton isn't tight or restricted. It fits just snug in the coils. I love using a lot of cotton for these flavor builds. </h3>
+  </div>
+  <div class="panel-body">
+    <img class="img-responsive" src="{{ "/images/posts/8.jpg" | prepend: site.baseurl }}" alt="cotton threaded through the coils"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">All wicked up. Just needs some juice and I'm good to go.</h3>
+  </div>
+  <div class="panel-body">
+    <img class="img-responsive" src="{{ "/images/posts/9.jpg" | prepend: site.baseurl }}" alt="cotton tucked into the deck"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Juice added. Wicks saturated. She's chucking!</h3>
+  </div>
+  <div class="panel-body">
+    <img class="img-responsive" src="{{ "/images/posts/10.jpg" | prepend: site.baseurl }}" alt="cotton juiced and firing"/>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Hamming it up lol... The flavor is outstanding and the clouds are on point for a build like this. Btw I'm vaping Cuttwood Bird Brain, 3 mg nic. Yummy!</h3>
+  </div>
+  <div class="panel-body">
+    <img class="img-responsive" src="{{ "/images/posts/11.jpg" | prepend: site.baseurl }}" alt="hamming it up for the camera lol"/>
+  </div>
+</div>
+
+Thanks for spending time with me today, Labor Day 2015. I hope you all have a great one. Peace out!
+
+--
+
+Jeff
