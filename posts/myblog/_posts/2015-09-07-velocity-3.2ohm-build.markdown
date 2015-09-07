@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  An Act Of Lavor - Building The Velocity RDA (clone by Tobeco) For Flavor On Labor Day, 2015
+title:  An Act Of Labor - Building The Velocity RDA (clone by Tobeco) For Flavor On Labor Day, 2015
 date:   2015-09-07
 author: Jeffrey T. Schwartz
 ---
@@ -108,7 +108,7 @@ Here are some pictures I took while I was buidling the Velocity:
 
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Hamming it up lol... The flavor is outstanding and the clouds are on point for a build like this. Btw I'm vaping Cuttwood Bird Brain, 3 mg nic. Yummy!</h3>
+    <h3 class="panel-title">Hamming it up lol... The flavor is outstanding and the clouds are on point for a build like this. Btw I'm vaping Cuttwood Bird Brains, 3 mg nic. Yummy!</h3>
   </div>
   <div class="panel-body">
     <img class="img-responsive" src="{{ "/images/posts/11.jpg" | prepend: site.baseurl }}" alt="hamming it up for the camera lol"/>
