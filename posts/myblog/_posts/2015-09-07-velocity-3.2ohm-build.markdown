@@ -11,7 +11,7 @@ Being that today is Labor Day here in the States, I decided to rebuild my Veloci
 
 I measured the wire to find that **_it has an average twist pitch of around 1 mm_**. Knowing the twist pitch is important because Steam Engine uses this number in its calculation for parallel/twisted wire. If you're interested, you can follow this link to **[Steam Engine](//www.steam-engine.org/coil.asp?p=roundmulti&tp=1&s=dp&r=0.35&str=2&awg=26&id=3.5&ll=1)** to see my calculation for this build. From experience **_I've learned that Steam Engine is off somewhat when calculating for parallel/twisted wire_**. So I added two more full wraps to what it indicated and even with 8 wraps it came out to only .32 ohms, short of Steam Engine's calculation of .35 ohms, but closer to what I expected anyway and I am quite happy with it.
 
-**_ For flavor builds I prefer a larger inner diameter than I normally use for cloud builds_**, so I chose to use an inner diameter of 3.5 mm for these coils. I really like these larger inner diameter coils for flavor builds. They allow me to stuff quite a bit of cotton in them and they will hold a lot of liquid. Speaking of cotton, **_I am using Cotton Bacon v2 for this build_** because I just love this cotton.
+**_For flavor builds I prefer a larger inner diameter than I normally use for cloud builds_**, so I chose to use an inner diameter of 3.5 mm for these coils. I really like these larger inner diameter coils for flavor builds. They allow me to stuff quite a bit of cotton in them and they will hold a lot of liquid. Speaking of cotton, **_I am using Cotton Bacon v2 for this build_** because I just love this cotton.
 
 Here are some pictures I took while I was buidling the Velocity RDA clone by Tobeco:
 
@@ -108,7 +108,7 @@ Here are some pictures I took while I was buidling the Velocity RDA clone by Tob
 
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title">Hamming it up lol... 75 watts and the flavor is outstanding. The clouds are on point for a build like this also. Btw I'm vaping Cuttwood Bird Brains, 3 mg nic. Yummy!</h3>
+    <h3 class="panel-title">Hamming it up lol... 75 watts and the flavor is outstanding. The clouds are on point for a build like this also. Btw <strong><i>I'm vaping Cuttwood Bird Brains, 3 mg nic. Yummy!</i></strong></h3>
   </div>
   <div class="panel-body">
     <img class="img-responsive" src="{{ "/images/posts/11.jpg" | prepend: site.baseurl }}" alt="hamming it up for the camera lol"/>
