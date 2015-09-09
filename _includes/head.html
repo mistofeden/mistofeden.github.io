@@ -17,7 +17,7 @@
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ site.url }}">
-    <meta property="og:image" {% if page.og-image != null %}content="{{ page.og-image }}"{% else %}content="{{ site.siteImg }}"{% endif%}>
+    <meta property="og:image" {% if page.og-image != null %}content="http://mistofeden.github.io/images{{ page.og-image }}"{% else %}content="http://mistofeden.github.io/images{{ site.siteImg }}"{% endif%}>
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <!-- End Open Graph data -->
