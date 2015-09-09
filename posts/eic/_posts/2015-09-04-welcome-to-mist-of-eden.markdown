@@ -9,19 +9,24 @@ Welcome to Mist Of Eden, my new blogging platform and webzine dedicated to
 providing the vaping community with original and curated content covering the
 many different and diverse aspects of vaping.
 
-Ever since I started vaping, which was about a year and a half ago, I dreamed of
+Ever since I started vaping about a year and a half ago, I dreamed of
 creating a publication just like this one, focusing on this marvelous social
 phenomena we call vaping.
 
-I also have a long background in IT and specifically in web development. Those
-skills have allowed me to develop Mist Of Eden using the best technologies that
-the free and open source software community has to offer.
+My profesional background is in IT, specifically web development, so I decided
+to build my own blogging site based on the best technologies that the free and
+open source software community has to offer. Mist Of Eden is not yet complete.
+it is in fact a continuous work in progress. So readers shouldn't be surprised
+to see things dramatically changing as I experiment with new and innovative
+concepts.
 
-Mist Of Eden is seeking articles from those directly involved in the vaping
-industry. If you would like to contribute an article then please contact me via
-email.
+Guest articles are welcome. If you'd like to submit a guest article to be posted
+here on Mist Of Eden then please email me. I will work with you to get your
+article posted here on Mist Of Eden.
 
-If you would like to become a sponsor of Mist Of Eden or place an ad here then
-please contact me via email. Ads can be placed above the fold as well as in the
-right side panel. Maintaing Mist Of Eden is very time consuming and every little
-bit will help.
+Also, if you have a device or an e-juice you'd like me to review here on Mist Of
+Eden then please email me. I would love the opportunity to do so.
+
+In addition, if you would like to become a sponsor of Mist Of Eden or place an
+ad here then please contact me via email. I can work with you to ensure that
+your ad or sponsorship is strategically placed on one or more pages.
