@@ -16,7 +16,7 @@ I measured the wire to find that **_it has an average twist pitch of around 1 mm
 
 Here are some pictures I took while I was buidling the Velocity RDA clone by Tobeco:
 
-<div class="panel panel-default">
+<div class="panel panel-default panel-blog">
   <div class="panel-heading">
     <h3 class="panel-title">Package of 28 gauge UD Roll Coils Wire.</h3>
   </div>
@@ -25,7 +25,7 @@ Here are some pictures I took while I was buidling the Velocity RDA clone by Tob
   </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default panel-blog">
   <div class="panel-heading">
     <h3 class="panel-title">A 3.5 mm screw driver and 2 strands of wire, each measuring about 8 inches.</h3>
   </div>
@@ -34,7 +34,7 @@ Here are some pictures I took while I was buidling the Velocity RDA clone by Tob
   </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default panel-blog">
   <div class="panel-heading">
     <h3 class="panel-title">Result! 2 nicely wrapped coils.</h3>
   </div>
@@ -43,7 +43,7 @@ Here are some pictures I took while I was buidling the Velocity RDA clone by Tob
   </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default panel-blog">
   <div class="panel-heading">
     <h3 class="panel-title">The Velocity clone by Tobeco.</h3>
   </div>
@@ -53,7 +53,7 @@ Here are some pictures I took while I was buidling the Velocity RDA clone by Tob
 </div>
 
 
-<div class="panel panel-default">
+<div class="panel panel-default panel-blog">
   <div class="panel-heading">
     <h3 class="panel-title">2 coils installed in the Velocity.</h3>
   </div>
@@ -62,7 +62,7 @@ Here are some pictures I took while I was buidling the Velocity RDA clone by Tob
   </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default panel-blog">
   <div class="panel-heading">
     <h3 class="panel-title">2 coils firing after compressing them. Not much work was needed to get them pretty.</h3>
   </div>
@@ -71,7 +71,7 @@ Here are some pictures I took while I was buidling the Velocity RDA clone by Tob
   </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default panel-blog">
   <div class="panel-heading">
     <h3 class="panel-title">Lets get to wicking. I love this Cotton Bacon. So easy to work with and the cotton is so clean. No specks to remove like Japanese cotton. Just pull off what you need and you are good to go!</h3>
   </div>
@@ -80,7 +80,7 @@ Here are some pictures I took while I was buidling the Velocity RDA clone by Tob
   </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default panel-blog">
   <div class="panel-heading">
     <h3 class="panel-title">The 3.5 mm inner diameter of these coils lets me use a lot more cotton. The cotton isn't tight or restricted. It fits just snug in the coils. I love using a lot of cotton for these flavor builds. </h3>
   </div>
@@ -89,7 +89,7 @@ Here are some pictures I took while I was buidling the Velocity RDA clone by Tob
   </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default panel-blog">
   <div class="panel-heading">
     <h3 class="panel-title">All wicked up. Just needs some juice and I'm good to go.</h3>
   </div>
@@ -98,7 +98,7 @@ Here are some pictures I took while I was buidling the Velocity RDA clone by Tob
   </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default panel-blog">
   <div class="panel-heading">
     <h3 class="panel-title">Juice added. Wicks saturated. She's chucking!</h3>
   </div>
@@ -107,7 +107,7 @@ Here are some pictures I took while I was buidling the Velocity RDA clone by Tob
   </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default panel-blog">
   <div class="panel-heading">
     <h3 class="panel-title">Hamming it up lol... 75 watts and the flavor is outstanding. The clouds are on point for a build like this also. Btw <strong><i>I'm vaping Cuttwood Bird Brains, 3 mg nic. Yummy!</i></strong></h3>
   </div>
