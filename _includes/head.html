@@ -14,9 +14,13 @@
     <!-- Social Media Meta Tags -->
 
     <!-- Open Graph data -->
-    <meta property="og:title" content="{{ site.title }}">
+    <meta property="og:title" content="{{ page.title }}">
+    {% if page.url contains "/posts/" %}
+    <meta property="og:type" content="article">
+    {% else %}
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url }}">
+    {% endif %}
+    <meta property="og:url" content="http://mistofeden.github.io{{ page.url }}">
     <meta property="og:image" {% if page.og-image != null %}content="http://mistofeden.github.io{{ page.og-image }}"{% else %}content="http://mistofeden.github.io{{ site.siteImg }}"{% endif%}>
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:site_name" content="Mist Of Eden">
