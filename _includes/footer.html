@@ -23,7 +23,9 @@
         <a href="#">Back to top</a>
     </p>
     <p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-    <p>Much thanks to Jan Kovarik for the amazing <a href="http://www.glyphicons.com/">GLYPHICONS</a> used throughout the Mist Of Eden website.</p>
+    <p>
+        Much thanks to Jan Kovarik for the amazing <a href="http://www.glyphicons.com/">GLYPHICONS</a> used throughout the Mist Of Eden website.
+    </p>
     <p>
         &copy;2015 Mist Of Eden<br>All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law.
     </p>
@@ -33,3 +35,7 @@
 <script src="{{ "/js/lib/jquery/jquery-2.1.4.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
 <script src="{{ "/js/lib/bootstrap/bootstrap.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
 <script src="{{ "/js/lib/bootstrap/ie10-viewport-bug-workaround.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+{% if page.url contains 'posts/' %}
+<script src="{{ "/js/lib/colorbox/jquery.colorbox-min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+<script src="{{ "/js/blogpage.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+{% endif %}
