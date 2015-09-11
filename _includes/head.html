@@ -28,6 +28,12 @@
 
     <!-- End Social Media Meta Tags -->
 
+    <!-- fb social plugins meta tags -->
+    {% if page.url contains "/posts/" %}
+    <meta property="fb:admins" content="689068720"/>
+    {% endif %}
+    <!-- end fb social plugins meta tags -->
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- <link rel="icon" href=""> -->
