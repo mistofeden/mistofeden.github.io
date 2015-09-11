@@ -30,3 +30,7 @@ Eden then please email me. I would love the opportunity to do so.
 In addition, if you would like to become a sponsor of Mist Of Eden or place an
 ad here then please contact me via email. I can work with you to ensure that
 your ad or sponsorship is strategically placed on one or more pages.
+
+--
+
+Jeff
