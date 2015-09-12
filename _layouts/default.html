@@ -11,17 +11,13 @@
 
         {% include header.html %}
 
-        {% if page.title == "Mist Of Eden" %}
-        <div class="row">
-            <div class="col-sm-8 blog-page-topimage">
-                <img class="img-responsive" src="{{ site.siteImg | prepend: site.baseurl }}" alt="">
-            </div>
-        </div>
-        {% endif %}
-
         <div class="row">
 
             <div class="col-sm-8 blog-main">
+
+                {% if page.title == "Mist Of Eden" %}
+                <img class="img-responsive site-img" src="{{ site.siteImg | prepend: site.baseurl }}" alt="">
+                {% endif %}
 
                 <div class="blog-page-advocacy">
                     <a href="http://casaa.org/Become_a_Member.html" target="_blank">
