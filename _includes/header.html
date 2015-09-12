@@ -1,6 +1,4 @@
-{% if page.title == "Mist Of Eden" %}
 <div class="blog-header">
-    <h1 class="blog-title">{{ site.title }}</h1>
-    <p class="lead blog-description">{{ site.description }}</p>
+    <h1 class="blog-title">{% if page.title == "Mist Of Eden" %}{{ site.title }}{% else %}{{page.title}}{% endif %}</h1>
+    <p class="lead blog-description">{% if page.title == "Mist Of Eden" %}{{ site.description }}{% else %}{{page.description}}{% endif %}</p>
 </div>
-{% endif %}
