@@ -1,7 +1,7 @@
 <div class="blog-header">
     <h1 class="blog-title">{% if page.title == "Mist Of Eden" %}{{ site.title }}{% else %}{{page.title}}{% endif %}</h1>
     {% if page.url contains 'post' %}
-    <p class="blog-post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="lead blog-post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     {% else %}
     <p class="lead blog-description">{% if page.title == "Mist Of Eden" %}{{ site.description }}{% else %}{{page.description}}{% endif %}</p>
     {% endif %}
