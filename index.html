@@ -19,7 +19,7 @@ title: Mist Of Eden
 
     {% for post in site.categories.eic limit: 1 %}
     <div class="panel-heading">
-        <h3>{{ post.title }}</h3>
+        <h3 class="panel-title">{{ post.title }}</h3>
         <!-- <h5>By <a href="#">{{ site.editorinchief }}</a></h5>
         <h6>{{ post.date  | date: "%b %-d, %Y" }}</h6> -->
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
@@ -34,20 +34,18 @@ title: Mist Of Eden
 
 </div>
 
-<div>
-
-  <h1 class="page-heading">Articles</h1>
-
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h4>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} By {{ post.author }}</a>
-        </h4>
-      </li>
-    {% endfor %}
-  </ul>
-
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Articles</h3>
+    </div>
+    <div class="panel-body">
+        <ul>
+            {% for post in site.posts %}
+            <li>
+                <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} By {{ post.author }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
