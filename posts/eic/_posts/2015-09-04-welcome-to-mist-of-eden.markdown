@@ -21,15 +21,18 @@ to see things dramatically changing as I experiment with new and innovative
 concepts.
 
 Guest articles are welcome. If you'd like to submit a guest article to be posted
-here on Mist Of Eden then please email me. I will work with you to get your
-article posted here on Mist Of Eden.
+here on Mist Of Eden then please <a
+href="mailto:mistofeden.blog@gmailcom">email</a> me. I will work with you to get
+your article posted here on Mist Of Eden.
 
 Also, if you have a device or an e-juice you'd like me to review here on Mist Of
-Eden then please email me. I would love the opportunity to do so.
+Eden then please <a href="mailto:mistofeden.blog@gmailcom">email</a> me. I would
+love the opportunity to do so.
 
 In addition, if you would like to become a sponsor of Mist Of Eden or place an
-ad here then please contact me via email. I can work with you to ensure that
-your ad or sponsorship is strategically placed on one or more pages.
+ad here then please contact me via <a
+href="mailto:mistofeden.blog@gmailcom">email</a>. I can work with you to ensure
+that your ad or sponsorship is strategically placed on one or more pages.
 
 --
 
