@@ -16,7 +16,7 @@ phenomena we call vaping.
 My profesional background is in IT, specifically web development, so I decided
 to build my own blogging site based on the best technologies that the free and
 open source software community has to offer. Mist Of Eden is not yet complete.
-it is in fact a continuous work in progress. So readers shouldn't be surprised
+It is in fact a continuous work in progress. So readers shouldn't be surprised
 to see things dramatically changing as I experiment with new and innovative
 concepts.
 
