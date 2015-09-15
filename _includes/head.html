@@ -20,8 +20,8 @@
     {% else %}
     <meta property="og:type" content="website">
     {% endif %}
-    <meta property="og:url" content="http://mistofeden.github.io{{ page.url }}">
-    <meta property="og:image" {% if page.og-image != null %}content="http://mistofeden.github.io{{ page.og-image }}"{% else %}content="http://mistofeden.github.io{{ site.siteImg }}"{% endif%}>
+    <meta property="og:url" content="http://mistofeden.com{{ page.url }}">
+    <meta property="og:image" {% if page.og-image != null %}content="http://mistofeden.com{{ page.og-image }}"{% else %}content="http://mistofeden.com{{ site.siteImg }}"{% endif%}>
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:site_name" content="Mist Of Eden">
     <!-- End Open Graph data -->
@@ -38,7 +38,7 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <!-- <link rel="icon" href=""> -->
-    <link rel="canonical" href="http://mistofeden.github.io{{ page.url }}">
+    <link rel="canonical" href="http://mistofeden.com{{ page.url }}">
 
     <!-- All style sheets including Bootstrap -->
     <link href="{{ "/css/site.css" | prepend: site.baseurl }}" rel="stylesheet">
