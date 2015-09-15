@@ -21,12 +21,12 @@ to see things dramatically changing as I experiment with new and innovative
 concepts.
 
 **_If you would like to be a guest writer_** and post your article here on Mist Of Eden then please <a
-href="mailto:mistofeden.blog@gmailcom">email</a> me. I will work with you to get your article posted here on Mist Of Eden.
+href="mailto:{{ site.email }}">email</a> me. I will work with you to get your article posted here on Mist Of Eden.
 
-**_If you have a product that you would like to have reviewed_** here on Mist Of Eden then please <a href="mailto:mistofeden.blog@gmailcom">email</a> me. I would love the opportunity to do so.
+**_If you have a product that you would like to have reviewed_** here on Mist Of Eden then please <a href="mailto:{{ site.email }}">email</a> me. I would love the opportunity to do so.
 
 **_If you would like to become a sponsor or place an ad_** here on Mist Of Eden then please contact me via <a
-href="mailto:mistofeden.blog@gmailcom">email</a>. I can work with you to ensure that your ad or sponsorship is strategically placed on one or more pages.
+href="mailto:{{ site.email }}">email</a>. I can work with you to ensure that your ad or sponsorship is strategically placed on one or more pages.
 
 --
 
