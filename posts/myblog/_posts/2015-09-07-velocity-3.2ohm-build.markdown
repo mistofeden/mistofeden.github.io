@@ -3,6 +3,7 @@ layout: post
 title:  The Velocity RDA (clone by Tobeco) - A Flavor Build On Labor Day, 2015
 date:   2015-09-07
 author: Jeffrey T. Schwartz
+authorImg: eic-profile-photo.jpg
 og-image: "/images/posts/6.jpg"
 ---
 
