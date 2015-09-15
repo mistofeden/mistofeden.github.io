@@ -3,8 +3,8 @@ layout: post
 title:  "Welcome!"
 date:   2015-09-04
 author: Jeffrey T. Schwartz
+authorImg: eic-profile-photo.jpg
 ---
-
 Welcome to Mist Of Eden, my new blogging platform and webzine dedicated to
 providing the vaping community with original and curated content covering the
 many different and diverse aspects of vaping.
