@@ -184,7 +184,7 @@ h6, .h6 {
     vertical-align: middle;
 }
 
-.article-eic .panel-body img {
+.article-eic .panel-body img, .blog-post-content img:first-child {
     @extend .pull-left;
     vertical-align: top;
     margin: 0 10px 10px 0;
