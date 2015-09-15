@@ -9,8 +9,10 @@ about: > # this means to ignore newlines until "baseurl:"
   limited to: safety and health, interviews and guest articles, product reviews,
   and of course advocacy.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://mistofeden.com/" # the base hostname & protocol for your site
-siteImg: "/images/vape-vaping-smoking-woman.jpg"
+url: http://mistofeden.com/ # the base hostname & protocol for your site
+siteImg: /images/vape-vaping-smoking-woman.jpg
+siteImgWidth: 650
+siteImgHeight: 395
 permalink: pretty
 
 # social media
