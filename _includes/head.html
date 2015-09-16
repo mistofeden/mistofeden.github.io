@@ -15,17 +15,13 @@
 
     <!-- Open Graph data -->
     <meta property="og:title" content="{{ page.title }}">
-    {% if page.url contains "/posts/" %}
-    <meta property="og:type" content="article">
-    {% else %}
-    <meta property="og:type" content="website">
-    {% endif %}
+    <meta property="og:type" {% if page.url contains "/posts/" %}content="article"{% else %}content="website"{% endif %}>
     <meta property="og:url" content="http://mistofeden.com{{ page.url }}">
     <meta property="og:image" {% if page.og-image != null %}content="http://mistofeden.com{{ page.og-image }}"{% else %}content="http://mistofeden.com{{ site.siteImg }}"{% endif %}>
-    {% if page.og-image == null %}
+    <!-- {% if page.og-image == null %}
     <meta property="og:image:width" content="{{ site.siteImgWidth }}">
     <meta property="og:image:height" content="{{ site.siteImgHeight }}">
-    {% endif %}
+    {% endif %} -->
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:site_name" content="Mist Of Eden">
     <!-- End Open Graph data -->
