@@ -19,33 +19,47 @@ title: Mist Of Eden
 
     {% for post in site.categories.eic limit: 1 %}
     <div class="panel-heading">
-        <h3 class="panel-title">{{ post.title }}</h3>
+        <a href="{{ post.url }}">
+            <h3 class="panel-title">{{ post.title }}</h3>
+        </a>
         <!-- <h5>By <a href="#">{{ site.editorinchief }}</a></h5>
         <h6>{{ post.date  | date: "%b %-d, %Y" }}</h6> -->
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        <p class="blog-post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </div>
     <article class="panel-body blog-post-content">
-        <img src="{{ "/images/eic-profile-photo.jpg" | prepend: site.baseurl }}"
-        width="64" height="64"
-        alt="Photo of the Editor-in-chief">
-        {{ post.content }}
+        <div class="thumb">
+            <a href="{{ post.url }}">
+                <img src="{{ "/images/eic-profile-photo.jpg" | prepend: site.baseurl }}"
+                width="64" height="64"
+                alt="Photo of the Editor-in-chief">
+            </a>
+        </div>
+        <p>{{ post.excerpt | strip_html }}<a href="{{ post.url }}">...read more</a></p>
+
     </article>
     {% endfor %}
 
 </div>
 
-<div class="panel panel-default">
+{% for post in site.posts %}
+    {% if post.category != "eic" %}
+<div class="panel panel-default article-post">
     <div class="panel-heading">
-        <h3 class="panel-title">Articles</h3>
+        <a href="{{ post.url }}">
+            <h3 class="panel-title">{{ post.title }}</h3>
+        </a>
+        <p class="blog-post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </div>
-    <div class="panel-body blog-post-content">
-        <ul class="list-archives">
-            {% for post in site.posts %}
-            <li>
-                <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} By {{ post.author }}</a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
+    <article class="panel-body blog-post-content">
+        <div class="thumb">
+            <a href="{{ post.url }}">
+                <img src="{{ post.og-image | prepend: site.baseurl }}"
+                width="64" height="64"
+                alt="Article photo">
+            </a>
+        </div>
+        <p>{{ post.excerpt | strip_html }}<a href="{{ post.url }}">...read more</a></p>
+    </article>
 </div>
+    {% endif %}
+{% endfor %}
