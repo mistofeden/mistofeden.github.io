@@ -92,7 +92,7 @@ h6, .h6 {
   padding-bottom: 20px;
 }
 .blog-title {
-  margin-top: 30px;
+  // margin-top: 30px;
   margin-bottom: 0;
   font-weight: normal;
 }
@@ -187,8 +187,22 @@ h6, .h6 {
 .article-eic .panel-body img, .blog-post-content img:first-child {
     @extend .pull-left;
     vertical-align: top;
-    margin: 0 10px 10px 0;
+    margin: 0 6px 6px 0;
 }
+
+.article-eic .panel-heading .panel-title, .article-post .panel-heading .panel-title {
+    color: $text-color;
+    font-weight: bold;
+}
+
+.article-eic .panel-heading .panel-title:hover, .article-post .panel-heading .panel-title:hover {
+    text-decoration: underline;
+    color: $text-color;
+}
+
+// .article-eic .panel-heading a:hover, .article-post .panel-heading a:hover {
+//     text-decoration-color: currentColor;
+// }
 
 .list-archive h5 {
     margin-top: 10px;
