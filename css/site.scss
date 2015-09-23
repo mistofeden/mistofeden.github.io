@@ -176,7 +176,8 @@ h6, .h6 {
 /*
  * Commom to all top-level pages
  */
-.blog-page-topimage, .blog-page-advocacy {
+.blog-page-topimage,
+.blog-page-advocacy {
     margin-bottom: 20px;
 }
 
@@ -184,20 +185,29 @@ h6, .h6 {
     vertical-align: middle;
 }
 
-.article-eic .panel-body img, .blog-post-content img:first-child {
+.article-eic .panel-body img,
+.blog-post-content img:first-child {
     @extend .pull-left;
     vertical-align: top;
     margin: 0 6px 6px 0;
 }
 
-.article-eic .panel-heading .panel-title, .article-post .panel-heading .panel-title {
+.article-eic .panel-heading .panel-title,
+.article-post .panel-heading .panel-title {
     color: $text-color;
     font-weight: bold;
 }
 
-.article-eic .panel-heading .panel-title:hover, .article-post .panel-heading .panel-title:hover {
+.article-eic .panel-heading .panel-title:hover,
+.article-post .panel-heading .panel-title:hover {
     text-decoration: underline;
     color: $text-color;
+}
+
+.article-eic .panel-heading p:last-child,
+.article-post .panel-heading p:last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 // .article-eic .panel-heading a:hover, .article-post .panel-heading a:hover {
@@ -216,7 +226,8 @@ h6, .h6 {
     cursor: pointer;
 }
 
-.facebook-like, .facebook-comments {
+.facebook-like,
+.facebook-comments {
     margin: 10px 0 10px 0;
 }
 
