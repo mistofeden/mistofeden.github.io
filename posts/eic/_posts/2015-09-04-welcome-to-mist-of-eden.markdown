@@ -6,9 +6,11 @@ author: Jeffrey T. Schwartz
 authorImg: eic-profile-photo.jpg
 category: eic
 ---
-Welcome to Mist Of Eden, my new blogging platform and webzine dedicated to
-providing the vaping community with original and curated content covering the
-many different and diverse aspects of vaping.
+Welcome to Mist Of Eden, a new <a
+href="https://en.wikipedia.org/wiki/Online_magazine" target="_blank">webzine</a>
+that I am launching and dedicating to providing the vaping community with
+original and curated content covering the many different and diverse aspects of
+vaping.
 
 Ever since I started vaping about a year and a half ago, I dreamed of
 creating a publication just like this one, focusing on this marvelous social
