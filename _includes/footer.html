@@ -1,24 +1,4 @@
 <footer class="blog-footer">
-    <!-- <div>
-        <ul class="list-inline">
-          <li>
-              <span class="icon-large icon-envelope socialmedia-icon"></span>
-              <span>{{ site.email }}</span>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/channel/ucoevj-vxllwsgztyevdggba" target="_blank">
-              <span class="icon-large icon-youtube socialmedia-icon"></span>
-              <span>{{ site.youtubechannel_name }}</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
-              <span class="icon-large icon-twitter socialmedia-icon"></span>
-              <span>{{ site.twitter_username }}</span>
-            </a>
-          </li>
-        </ul>
-    </div> -->
     <p><a href="#">Back to top</a></p>
     <p><a href="{{ "/info/" | prepend: site.baseurl }}" alt="Info page link" >Info/FAQ</a></p>
     <p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
@@ -32,10 +12,10 @@
 <script src="{{ "/js/lib/jquery/jquery-2.1.4.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
 <script src="{{ "/js/lib/bootstrap/bootstrap.min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
 <script src="{{ "/js/lib/bootstrap/ie10-viewport-bug-workaround.js" | prepend: site.baseurl }}" charset="utf-8"></script>
-{% if page.url contains 'posts/' %}
+<script src="{{ "/js/lib/js-cookie/js.cookie.js" | prepend: site.baseurl }}" charset="utf-8"></script>
+<script src="{{ "/js/overlay.js" | prepend: site.baseurl }}" charset="utf-8"></script>
 <script src="{{ "/js/lib/colorbox/jquery.colorbox-min.js" | prepend: site.baseurl }}" charset="utf-8"></script>
 <script src="{{ "/js/blogpage.js" | prepend: site.baseurl }}" charset="utf-8"></script>
-{% endif %}
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
