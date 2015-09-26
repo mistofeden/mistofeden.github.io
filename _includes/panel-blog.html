@@ -1,0 +1,8 @@
+<div class="panel panel-default panel-blog">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{ include.panelTitle}}</h3>
+    </div>
+    <div class="panel-body">
+        <img class="img-responsive" src="/images{{ include.image | prepend: site.baseurl }}" alt="{{ include.imageAlt}}" title="click image for colorbox"/>
+    </div>
+</div>
