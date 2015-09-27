@@ -185,8 +185,9 @@ h6, .h6 {
     vertical-align: middle;
 }
 
-.article-eic .panel-body img,
-.blog-post-content img:first-child {
+// .article-eic .panel-body img:first-child,
+.blog-post-content .thumb a > img:first-child,
+.blog-post-content > img:first-child {
     @extend .pull-left;
     vertical-align: top;
     margin: 0 6px 6px 0;
@@ -209,10 +210,6 @@ h6, .h6 {
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
-
-// .article-eic .panel-heading a:hover, .article-post .panel-heading a:hover {
-//     text-decoration-color: currentColor;
-// }
 
 .list-archive h5 {
     margin-top: 10px;
@@ -269,4 +266,32 @@ h6, .h6 {
 
 #legalage, #notlegalage {
     margin: 10px;
+}
+
+.carousel-caption h3 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.carousel-inner .item img {
+    margin: 0;
+}
+
+.carousel-inner .youtube-video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.carousel-inner .youtube-video-container iframe {
+    padding: 0 15% 0 15%;
+}
+
+.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
