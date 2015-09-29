@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Dr. Crimmy's v. Convicted Vapes
+title:  Convicted Vapes v. Dr. Crimmy's
 date:   2015-09-25
 author: Jeffrey T. Schwartz
 authorImg: eic-profile-photo.jpg
@@ -17,6 +17,8 @@ https://www.facebook.com/kwlynch/videos/10153682943367174/
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
         <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+        <li data-target="#carousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -39,6 +41,15 @@ https://www.facebook.com/kwlynch/videos/10153682943367174/
             <div class="youtube-video-container">
                 <iframe class="youtube-video" src="https://www.youtube.com/embed/gg2ysY1NMJc" frameborder="0" allowfullscreen></iframe>
             </div>
+            <!-- <div class="carousel-caption">
+                <h3>Matty Ice/Convicted Vapes Video</h3>
+                <p>yadayada</p>
+            </div> -->
+        </div>
+        <div class="item">
+            <div class="youtube-video-container">
+                <iframe class="youtube-video" src="https://www.youtube.com/embed/1uDKUPSheSY" frameborder="0" allowfullscreen></iframe>
+        </div>
             <!-- <div class="carousel-caption">
                 <h3>Matty Ice/Convicted Vapes Video</h3>
                 <p>yadayada</p>
