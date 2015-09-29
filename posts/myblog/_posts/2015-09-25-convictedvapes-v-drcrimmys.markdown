@@ -24,13 +24,6 @@ https://www.facebook.com/kwlynch/videos/10153682943367174/
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img class="img-responsive" src="{{ "/images/posts/13.jpg" | prepend: site.baseurl }}">
-            <div class="carousel-caption">
-                <h3>Dr. Crimmy's Web Page</h3>
-                <p>yadayada</p>
-            </div>
-        </div>
-        <div class="item">
             <img class="img-responsive" src="{{ "/images/posts/12.jpg" | prepend: site.baseurl }}" alt="Matty Ice/Convicted Vapes"/>
             <div class="carousel-caption">
                 <h3>Matty Ice/Convicted Vapes</h3>
@@ -38,22 +31,21 @@ https://www.facebook.com/kwlynch/videos/10153682943367174/
             </div>
         </div>
         <div class="item">
+            <img class="img-responsive" src="{{ "/images/posts/13.jpg" | prepend: site.baseurl }}">
+            <div class="carousel-caption">
+                <h3>Dr. Crimmy's Web Page</h3>
+                <p>yadayada</p>
+            </div>
+        </div>
+        <div class="item">
             <div class="youtube-video-container">
                 <iframe class="youtube-video" src="https://www.youtube.com/embed/gg2ysY1NMJc" frameborder="0" allowfullscreen></iframe>
             </div>
-            <!-- <div class="carousel-caption">
-                <h3>Matty Ice/Convicted Vapes Video</h3>
-                <p>yadayada</p>
-            </div> -->
         </div>
         <div class="item">
             <div class="youtube-video-container">
                 <iframe class="youtube-video" src="https://www.youtube.com/embed/1uDKUPSheSY" frameborder="0" allowfullscreen></iframe>
-        </div>
-            <!-- <div class="carousel-caption">
-                <h3>Matty Ice/Convicted Vapes Video</h3>
-                <p>yadayada</p>
-            </div> -->
+            </div>
         </div>
         <div class="item">
             <div class="youtube-video-container">
